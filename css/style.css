@@ -151,8 +151,15 @@ body{
     font-weight: 700;
 }
 
-.swiper-wrapper{
-    background: rgba(21,21,21,0.9);
+.swiper::after{
+    content: '';
+    background: rgba(21,21,21,0.3);
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
 }
 
 .swiper-slide{
